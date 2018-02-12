@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+html, body {
+  height: 100%;
+  background: #3F3F3F;
+  font-family: Calibri, Verdana, Arial, sans-serif
+}
+
+header {
+  height: 96px;
+  text-align: center;
+  font-size: 2.0em
+}
+
+header a:link {
+  color: #C0C0C0;
+  text-decoration: none;
+  vertical-align: middle
+}
+
+header a:visited {
+  color: #C0C0C0
+}
+
+header a:hover {
+  color: #FFFFFF
+}
+
+#divMain {
+  min-height: 100%
+}
+
+#divContent {
+  overflow: hidden;
+  margin-left: 2.0em;
+  margin-right: 2.0em;
+  padding-bottom: 48px;
+  background-color: #000000;
+  border-radius: 8px
+}
+
+#EmpireButtonList {
+  list-style: none
+}
+
+#EmpireButtonList li {
+  float: left
+}
+
+img {
+  padding: 8px;
+  display: inline
+}
+
+img.SelectedEmpire {}
+
+img.NonSelectedEmpire {}
+
+footer {
+  height: 48px;
+  margin-top: -48px;
+  text-align: center;
+  font-size: 0.75em;
+  position: relative;
+  clear: both
+}
+
+footer a:link {
+  color: #C0C0C0;
+  vertical-align: middle;
+  text-decoration: none
+}
+
+footer a:visited {
+  color: #C0C0C0
+}
+
+footer a:hover {
+  color: #FFFFFF
+}

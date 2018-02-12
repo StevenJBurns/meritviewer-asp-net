@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PlanetSide MeritViewer</title>
+    <link type="text/css" rel="stylesheet" href="@Href("~/css/meritviewer.css")" />
+    <script type="text/javascript" src="javascript/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="javascript/meritviewer.js"></script>
+  </head>
+  <body>
+    <div id="divMain">
+        @RenderPage("~/partials/_header.cshtml")
+        <div id="divContent">	@RenderBody()</div>
+    </div>
+      @RenderPage("~/partials/_footer.cshtml")
+  </body>
+</html>
+
